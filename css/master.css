@@ -1,0 +1,59 @@
+.circle-img {
+  border-radius: 50%;
+}
+.hero {
+  background-color: #f5f5f5;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  text-align: center;
+}
+.about-me, .my-skills, .portfolio, .contact-info {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.about-me {
+  background-color: #eeeeee;
+}
+.my-skills {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.portfolio {
+  background-color: #eeeeee;
+}
+.working-on {
+  background-color: #f5f5f5;
+}
+.contact-info {
+  text-align: center;
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .hero {
+    padding-top: 4em;
+    padding-bottom: 5em;
+  }
+  .about-me, .my-skills, .portfolio, .contact-info {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+  .about-me, .my-skills, .portfolio, .contact-info {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    padding-top: 7em;
+    padding-bottom: 7em;
+  }
+  .about-me, .my-skills, .portfolio, .contact-info {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+}
